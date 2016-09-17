@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="google-site-verification" content="YHHvAVEYd3migiAcg9k8OE5mtytgjrzX5oyyhUYPRWg" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Iago Reis</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                        Iago Reis
+                    </a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"> << Menu</a>
+                        <h1>Site em construção</h1>
+                        <p></p>
+                        <p>
+                            Abaixo você pode encontrar meu endereço de e-mail,
+                            meu telefone e minha página no facebook. Sinta se
+                            livre para me contatar através de qualquer uma destas
+                            opções. Obrigado por visitar meu site.
+                        </p>
+                        <script src="https://apis.google.com/js/platform.js"></script>
+
+                        <script>
+                          function onYtEvent(payload) {
+                            if (payload.eventType == 'subscribe') {
+                              // Add code to handle subscribe event.
+                            } else if (payload.eventType == 'unsubscribe') {
+                              // Add code to handle unsubscribe event.
+                            }
+                            if (window.console) { // for debugging only
+                              window.console.log('YT event: ', payload);
+                            }
+                          }
+                        </script>
+
+                        <div class="g-ytsubscribe" data-channelid="UCIeIq-yIE8sS1nI5qLl2w8w" data-layout="full" data-count="hidden" data-onytevent="onYtEvent"></div>
+                        <p><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">WhatsApp: (61) 99935 - 4110</span></a></p>
+                        <p><a href="mailto:oiago@hotmail.com" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">E-mail: oiago@hotmail.com</span></a></p>
+                        <p><a href="https://www.facebook.com/oiago" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook: Iago Reis</span></a></p>
+
+
+                        <p>Buy me a beer:
+                            <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                            <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+                            <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                            <input type="hidden" name="currency" value="BRL" />
+                            <input type="hidden" name="receiverEmail" value="oiago@hotmail.com" />
+                            <input type="hidden" name="iot" value="button" />
+                            <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/209x48-doar-preto-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                            </form>
+                            <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    /*global $*/
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
